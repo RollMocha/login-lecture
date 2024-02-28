@@ -4,21 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/home/login.css">
-    <title>로그인</title>
+    <title>회원가입</title>
 </head>
 <body>
     <div class="login-page">
         <div class="form">
           <form class="login-form">
             <input id="id" type="text" placeholder="아이디"/>
+            <input id="name" type="text" placeholder="이름"/>
             <input id="password" type="password" placeholder="비밀번호"/>
-            <button>login</button>
-            <p class="message">Not registered? <a href="/register">Create an account</a></p>
+            <input id="confirm-password" type="password" placeholder="비밀번호 확인"/>
+            <button>SIGN UP</button>
+            <p class="message">Already registered? <a href="/login">login</a></p>
           </form>
         </div>
-    </div>
+      </div>
     <script src="/js/home/login.js" defer></script>
 </body>
 </html>
-
-<!--Copyright (c) 2024 by Aigars Silkalns (https://codepen.io/colorlib/pen/rxddKy)-->
